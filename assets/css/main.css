@@ -2,6 +2,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -146,13 +147,17 @@ body, input, select, textarea {
 	line-height: 1.65;
 }
 
+  br {
+        line-height: 10%;
+     }
+
 /* Here you can change how links (and all of the other basic elements) look */
 a {
 	-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+	border-bottom: solid 1px rgba(255, 255, 255, 0.5);
 	text-decoration: none;
 	color: inherit;
 }
@@ -171,12 +176,14 @@ em, i {
 }
 
 p {
-	margin: 0 0 2rem 0;
+	margin: 0 0 0 0;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
 	color: #ffffff;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
 	text-transform: uppercase;
@@ -720,10 +727,10 @@ ol {
 		padding-left: 0.25em;
 	}
 
-ul {
+ul {font-size:12px;
 	list-style: disc;
 	margin: 0 0 2rem 0;
-	padding-left: 1em;
+	padding-left: 3em;
 }
 
 	ul li {
@@ -890,7 +897,7 @@ ul.icons {
 
 	ul.icons li {
 		display: inline-block;
-		padding: 0 0.75em 0 0;
+		padding: 0 1.75em 0 0;
 	}
 
 		ul.icons li:last-child {
@@ -1307,7 +1314,7 @@ button {
 			-webkit-transition-delay: 0.25s;
 			-ms-transition-delay: 0.25s;
 			transition-delay: 0.25s;
-			padding: 3rem 2rem;
+			padding: 1.5rem 7rem;
 			max-height: 40rem;
 			overflow: hidden;
 		}
@@ -1532,7 +1539,7 @@ button {
 		transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 		padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 		position: relative;
-		width: 40rem;
+		width: 50rem;
 		max-width: 100%;
 		background-color: rgba(27, 31, 34, 0.85);
 		border-radius: 4px;

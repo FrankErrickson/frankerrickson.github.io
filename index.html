@@ -11,7 +11,7 @@
 	-->
 	<head>
 		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>AstroSites</title>
+		<title>Frank C. Errickson</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
@@ -25,6 +25,7 @@
 			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
 			available. 
 		-->
+		<link rel="stylesheet" href="assets/css/academicons.min.css"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<!-- The body is the location where your site's content will go -->
@@ -37,7 +38,7 @@
 					<header id="header">
 						<!-- This is the main content of the front page -->
 						<div class="content">
-							<div class="inner">
+							<div class="inner" >
 								<!-- Here is a heading where you can put your name -->
 								<h1>
 									Frank C. Errickson
@@ -48,18 +49,45 @@
 
 									Try adding "border-radius: 50%;" to the style attribute.
 								-->
-								<img src="images/Astronomy.jpg" style="width:180px; height:180px; object-fit: cover;">
+								<!--<img src="images/Astronomy.jpg" style="width:180px; height:180px; object-fit: cover;">-->
+								<img src="images/headshot.png" style="width:120px; border:1px solid black" >
+
 								<!-- 	Here is a paragraph where you can put your position and institution, or
 									a short line about yourself.
 								-->
 								<p>
-									Postdoctoral Research Associate <br> Center for Policy Research on Energy and the Envrionment <br> Princeton University <br> WEBSITE UNDER DEVELOPMENT
+									<b>Postdoctoral Research Associate</b> <br> Center for Policy Research on Energy and the Envrionment <br> School of Public and International Affairs <br> Princeton University <br>
 								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="images/Astronomy.jpg" target="_blank">Curriculum Vitae</a>
-								</p>
+								<br>
+								<!-- <ul class="icons" style = "position:relative; top:40px;"> -->
+								<ul class="icons" style="font-size: 0.6rem;">
+								<!-- The Twitter icon -->
+								<li>
+									<!-- 	Note that you need to change the link to point to your page.
+										Replace "#" with your Twitter profile page.
+									-->
+									<a href="https://twitter.com/F_Errickson" class="icon fa-twitter fa-2x">
+										<span class="label">Twitter</span>
+									</a>
+								</li>
+
+									<!-- The GitHub icon -->
+								<li>
+									<a href="https://github.com/FrankErrickson" class="icon fa-github fa-2x">
+										<span class="label">GitHub</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="mailto: fce@princeton.edu" class="icon fa-envelope fa-2x">
+										<span class="label">GitHub</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="https://scholar.google.com/citations?user=fEXyAfEAAAAJ&hl=en" class="ai ai-google-scholar ai-2x">
+									</a>
+								</li>
 							</div>
 						</div>
 						<!-- This is the navigation menu -->
@@ -71,13 +99,16 @@
 									<!-- 	Note that this links to #about, which will move the page to wherever
 										the element with the id "about" exists.
 									-->
-									<a href="#about">About Me</a>
+									<a href="#papers">Papers</a>
 								</li>
 								<li>
-									<a href="#research">Research</a>
+									<a href="#software">Software</a>
 								</li>
 								<li>
-									<a href="#community">Community</a>
+									<a href="#teaching">Teaching</a>
+								</li>
+								<li>
+									<a href="#about">About/CV</a>
 								</li>
 								<li>
 									<a href="#contact">Contact</a>
@@ -94,11 +125,37 @@
 
 					<!-- These are the "cards" that appear when you click the buttons on the main page -->
 					<div id="main">
+
+
+						<!-- Here is the "Software" card. -->
+						<article id="software">
+							<h2 class="major">Software</h2>
+
+							Coming soon.
+
+						</article>
+
+						<!-- Here is the "Teaching" card. -->
+						<article id="teaching">
+							<h2 class="major">Teaching</h2>
+
+							Coming soon.
+
+						</article>
+
+						<!-- Here is the "Teaching" card. -->
+						<article id="about">
+							<h2 class="major">About/CV</h2>
+
+							Coming soon.
+
+						</article>
+
 						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
 							button links to.
 						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
+						<article id="Not Using">
+							<h2 class="major">About</h2>
 							<!-- Here is an image that you can customize for this page -->
 							<span class="image main">
 								<img src="images/pic01.jpg" alt=""/>
@@ -117,25 +174,69 @@
 						</article>
 
 						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<span class="image main">
+						<article id="papers">
+							<h2 class="major">Papers</h2>
+							<!---<span class="image main">
 								<img src="images/pic02.jpg" alt=""/>
 							</span>
-							<p>
+							<p> -->
 								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
 									the next line.
-								-->
-								<b>Project I Title</b><br>Project description, including further links to posters, talks, publications.
-							</p>
-							<p>
-								<b>Project II Title</b><br>Project description, including further links to posters, talks, publications.
-							</p>
+								 <font size=4em>   -->
+
+								<b>Climate policy: protecting the poor with a carbon tax and equal per capita dividend</b>
+								<br><p style="font-size:14px;">Budolfson, Dennig, Errickson, Feindt, Ferranna, Fleurbaey, Klenert, Kornek, Kuruc, M&eacutejean, Peng, Scovronick, Spears, Wagner, & Zuber. Forthcoming in <i>Nature Climate Change (invited Policy Brief)</i> (2021).</p>
+
+								<br><b>Climate action with revenue recycling has benefits for poverty, inequality, and wellbeing</b>
+								<br><p style="font-size:14px;">Budolfson, Dennig, Errickson, Feindt, Ferranna, Fleurbaey, Klenert, Kornek, Kuruc, M&eacutejean, Peng, Scovronick, Spears, Wagner, & Zuber. Forthcoming in <i>Nature Climate Change</i> (2021).</p>
+
+								<br><b><a href="https://www.rff.org/publications/working-papers/the-social-cost-of-carbon-advances-in-long-term-probabilistic-projections-of-population-gdp-emissions-and-discount-rates/">The social cost of carbon: advances in long-term probabilistic projections of population, gdp, emissions, and dscount rates</a></b><br><p style="font-size:14px;">Rennert, Prest, Pizer, Newell, Anthoff, Kingdon, Rennels, Cooke, Raftery, Ševčíková, & Errickson. Forthcoming in <i>Brookings Papers on Economic Activity</i> (2021).</p>
+								<div style="line-height:50%;"><br></div>
+								<ul>
+									<li>Media: <a href="https://www.nytimes.com/2021/09/17/opinion/greenhouse-gas-cost.html?mc_cid=02eab61259&mc_eid=89ee108d17">New York Times Op-Ed</a>, <a href="https://www.brookings.edu/bpea-articles/the-social-cost-of-carbon/">BPEA Summary</a> , <a href="https://www.resources.org/archives/working-toward-a-new-social-cost-of-carbon/">Resources Magazine</a>
+								</ul>
+
+								 <b><a href="https://www.nature.com/articles/s41586-021-03386-6">Equity is more important for the social cost of methane than climate uncertainty</a></b>
+								 <br><p style="font-size:14px;">Errickson, Keller, Collins, Shrikrishnan, & Anthoff.  <i>Nature</i> (2021).</p>
+    							<div style="line-height:50%;"><br></div>
+								<ul>
+									<li>Media: <a href="https://www.nature.com/articles/d41586-021-00972-6">Nature News & Views</a>, <a href="https://energyathaas.wordpress.com/2021/05/17/shouldnt-we-weight/">Energy Institute at Haas</a>
+										<li><a href="https://github.com/anthofflab/paper-2021-scch4">Replication code</a>
+								</ul>
+
+								<b><a href="https://www.nature.com/articles/s41558-021-01130-6">Utilitarian benchmarks for emissions and pledges promote equity, climate and development</a></b>
+								<br><p style="font-size:14px;">Budolfson, Anthoff, Dennig, Errickson, Kuruc, Spears, & Dubash. <i>Nature Climate Change</i> (2021).</p>
+								<div style="line-height:50%;"><br></div>
+								<ul>
+									<li><a href="https://github.com/Environment-Research/Utilitarianism">Replication code</a>
+								</ul>
+
+								<b><a href="https://www.nature.com/articles/s43016-021-00265-1#code-availability">Animal-based foods have high social and climate costs</a></b>
+								<br><p style="font-size:14px;">Errickson, Kuruc, & McFadden. <i>Nature Food</i> (2021).</p>
+								<div style="line-height:50%;"><br></div>
+								<ul>
+									<li><a href="https://github.com/kevinkuruc/ClimateCostsofAnimalFoods_NatureFood2021">Replication code</a>
+								</ul>
+
+								<b><a href="https://iopscience.iop.org/article/10.1088/1748-9326/abf2e7">The importance of health co-benefits under different climate policy cooperation frameworks</a></b>
+								<br><p style="font-size:14px;">Scovronick, Anthoff, Dennig, Errickson, Ferranna, Peng, Spears, Wagner, & Budolfson. <i>Environmental Research Letters</i> (2021).</p>
+
+								<br><b><a href="https://www.nature.com/articles/s41467-019-09499-x">The impact of human health co-benefits on evaluations of global climate policy</a></b>
+								<br><p style="font-size:14px;">Scovronick, Budolfson, Dennig, Errickson, Fleurbaey, Peng, Socolow, Spears, & Wagner. <i>Nature Communications</i> (2019).</p>
+								<div style="line-height:50%;"><br></div>
+								<ul>
+									<li><a href="https://github.com/Environment-Research/AIR">Code for Aerosol Impacts and Responses (AIR) model</a>
+								</ul>
+
+								<b><a href="https://journals.lww.com/epidem/Fulltext/2019/09000/Human_Health_and_the_Social_Cost_of_Carbon__A.6.aspx">Human health and the social cost of carbon: a primer and call to action</a></b>
+								<br><p style="font-size:14px;">Scovronick, Vasquez, Errickson, Dennig, Gasparrini, Hajat, Spears, Budolfson. <i>Epidemiology</i> (2019).</p>
+							
+
 						</article>
 
 						<!-- Here is the "Community" card. -->
 						<article id="community">
-							<h2 class="major">Community</h2>
+							<h2 class="major">Software</h2>
 							<span class="image main">
 								<img src="images/pic03.jpg" alt=""/>
 							</span>
@@ -170,13 +271,13 @@
 									<!-- 	Note that you need to change the link to point to your page.
 										Replace "#" with your Twitter profile page.
 									-->
-									<a href="#" class="icon fa-twitter">
+									<a href="www.twitter.com" class="icon fa-twitter">
 										<span class="label">Twitter</span>
 									</a>
 								</li>
 								<!-- The Facebook icon -->
 								<li>
-									<a href="#" class="icon fa-facebook">
+									<a href="facebook.com" class="icon fa-facebook">
 										<span class="label">Facebook</span>
 									</a>
 								</li>
@@ -211,7 +312,7 @@
 						<!-- 	You can change "Untitled" to your name to show everyone that
 							this is your work.
 						-->
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Frank C. Errickson. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
