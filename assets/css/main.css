@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 		width: -ms-max-content;
 		width: max-content;
 		padding-bottom: 0.5rem;
-		margin: 0 0 2rem 0;
+		margin: -2rem 0 2rem 0;
 	}
 
 h1 {
@@ -1654,3 +1654,11 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
